@@ -37,38 +37,42 @@ a:visited{color: rgb(0, 0, 100)}
 
 
 @keyframes blinkHighlight {
-    0% { background-color: #f8f9fa; color: #0073e6; }
-    50% { background-color: #ffeeba; color: #d39e00; }
-    100% { background-color: #f8f9fa; color: #0073e6; }
+    0% { background-color: #ffeb3b; color: #000; }  /* Bright Yellow */
+    50% { background-color: #ff9800; color: #fff; } /* Vibrant Orange */
+    100% { background-color: #ffeb3b; color: #000; } /* Back to Yellow */
 }
 
 .highlight-box {
-    background-color: #f8f9fa;
+    background-color: #ffeb3b; /* Default Yellow */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
     display: inline-block;
     max-width: 500px;
     text-align: center;
     margin: 20px auto;
-    animation: blinkHighlight 1.5s infinite alternate;
+    font-weight: bold;
+    font-size: 1.2em;
+    animation: blinkHighlight 1s infinite alternate; /* Smooth blinking */
 }
 
 h2 {
-    color: #0073e6;
+    color: #d84315; /* Deep Orange */
 }
 
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 10px;
-    background-color: #0073e6;
+    background-color: #d84315; /* Deep Orange */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .cta-button:hover {
-    background-color: #005bb5;
+    background-color: #bf360c; /* Darker Red-Orange */
 }
+
