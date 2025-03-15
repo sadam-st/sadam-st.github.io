@@ -372,3 +372,17 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
+
+.blinking-text {
+  animation: blink-animation 1s steps(5, start) infinite;
+  color: #FF5733; /* Choose your preferred color */
+  font-weight: bold;
+}
+
+@keyframes blink-animation {
+  50% {
+    opacity: 0;
+  }
+}
+
