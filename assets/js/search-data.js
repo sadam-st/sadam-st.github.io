@@ -440,8 +440,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-three-papers-accepted-at-spie-medical-imaging-conference-2026-vancouver-canada",
+          title: 'Three papers accepted at SPIE Medical Imaging Conference 2026 Vancouver, Canada.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
