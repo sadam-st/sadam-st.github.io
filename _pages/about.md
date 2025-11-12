@@ -25,7 +25,7 @@ latest_posts:
 
 <p>
 	I am a 4th year PhD candidate at the <a href="https://eic.tec.mx/en">School of Engineering and Sciences</a>, 
-	<a href="https://tec.mx/en">Tecnologico de Monterrey, Mexico</a>, advised by <a href="https://scholar.google.com/citations?user=0QYfOC0AAAAJ&hl=en">Dr. Jose Tamez-Peña</a>. Before joining this institute, I was working as a lecturer at <a href="https://saus.edu.pk" target="_blank">Shaikh Ayaz University, Shikarpur, Pakistan</em> </a>. 
+	<a href="https://tec.mx/en">Tecnologico de Monterrey, Mexico</a>, advised by <a href="https://scholar.google.com/citations?user=0QYfOC0AAAAJ&hl=en">Dr. Jose Tamez-Peña</a>. Before joining this institute, I was working as a lecturer at <a href="https://saus.edu.pk" target="_blank">Shaikh Ayaz University, Shikarpur, Pakistan</a>. 
 </p>
 
 My research interests lie at the intersection of computer vision, machine learning and natural language processing. I have been working on developing multimodal deep learning models for breast cancer diagnosis and prognosis.
