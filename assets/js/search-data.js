@@ -17,8 +17,8 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-contact",
-          title: "contact",
-          description: "",
+          title: "Contact",
+          description: "Feel free to contact me if you have any question.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/contact/";
