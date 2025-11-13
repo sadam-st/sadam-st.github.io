@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Three papers accepted at SPIE Medical Imaging Conference 2026 Vancouver, Canada.
+One Paper accepted in Applied Sciences.
