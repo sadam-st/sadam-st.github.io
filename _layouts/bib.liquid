@@ -48,7 +48,27 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
+    <!-- <div class="title">{{ entry.title }}</div> -->
+    <div class="pub-entry" style="display:flex; align-items:center; gap:12px; margin-bottom:6px;">
+      {% if entry.image %}
+      <img src="{{ entry.image | relative_url }}" alt="paper image" style="width:70px; height:auto; border-radius:8px; box-shadow:0 1px 3px rgba(0,0,0,0.2);">
+      {% endif %}
+
+    <div class="title">
+      {% if entry.doi %}
+        <a href="https://doi.org/{{ entry.doi }}" target="_blank">{{ entry.title }}</a>
+      {% elsif entry.url %}
+        <a href="{{ entry.url }}" target="_blank">{{ entry.title }}</a>
+      {% elsif entry.html %}
+        <a href="{{ entry.html }}" target="_blank">{{ entry.title }}</a>
+      {% elsif entry.pdf %}
+        <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank">{{ entry.title }}</a>
+      {% else %}
+        {{ entry.title }}
+      {% endif %}
+    </div>
+    </div>
+
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
