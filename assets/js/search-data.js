@@ -440,8 +440,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-one-paper-accepted-in-applied-sciences",
-          title: 'One Paper accepted in Applied Sciences.',
+            },},{id: "news-one-paper-accepted-in-applied-sciences-sparkles",
+          title: 'One Paper accepted in Applied Sciences. :sparkles:',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
