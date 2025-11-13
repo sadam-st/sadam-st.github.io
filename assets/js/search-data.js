@@ -448,8 +448,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-three-papers-accepted-at-spie-medical-imaging-conference-2026-vancouver-canada-sparkles-smile",
+          title: 'Three papers accepted at SPIE Medical Imaging Conference 2026 Vancouver, Canada.! :sparkles: :smile:...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
