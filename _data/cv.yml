@@ -35,33 +35,31 @@
   contents:
     - title: Researcher (PhD Candidate)
       institution: Tecnológico de Monterrey, Monterrey, Mexico
-      year: 2021 - 2025
+      year: 2020 - 2024
       description:
         - Developed a multimodal foundation model for breast cancer risk prediction.
         - Integrated explainable AI components for interpretability and fairness.
         - Collaborated with clinicians and radiologists for data annotation and model validation.
-
     - title: Lecturer
-      institution: Shaikh Ayaz University, Shikapur
+      institution: Shaikh Ayaz University, Shikarpur
       year: 2017 - Present
       description:
         - Taught undergraduate and graduate courses in artificial intelligence, programming, and data science.
         - Supervised student research projects in computer vision and machine learning.
-
     - title: Teaching Assistant
       institution: Tecnológico de Monterrey, Mexico
-      year: 2022 - 2024
+      year: 2022 - 2025
       description:
         - Assisted in teaching graduate-level courses on medical image analysis and AI applications in healthcare.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: "[TECRR Dataset](https://github.com/sadam-hussain-tec/TECRR)"
-      year: 2023 - Present
+    - title: '<a href="https://github.com/sadam-hussain-tec/TECRR">TECRR Dataset</a>'
+      year: 2023 - now
       description: A benchmark dataset of radiological reports for BI-RADS classification with machine learning, deep learning, and LLM baselines.
-    - title: "[Multimodal-Risk-AI](https://github.com/sadam-hussain-tec/Multimodal-Risk-AI)"
-      year: 2024 - Present
+    - title: '<a href="https://github.com/sadam-hussain-tec/Multimodal-Risk-AI">Multimodal-Risk-AI</a>'
+      year: 2024 - now
       description: A multimodal AI framework for breast cancer risk prediction using mammography and radiology reports.
 
 - title: Honors and Awards
@@ -69,7 +67,7 @@
   contents:
     - year: 2025
       items:
-        - Invention Disclosure: "Multimodal Artificial Intelligence System for Breast Cancer Risk Prediction, Tecnológico de Monterrey (NI-2025-0033)."
+        - 'Invention Disclosure: “Multimodal Artificial Intelligence System for Breast Cancer Risk Prediction,” Tecnológico de Monterrey (NI-2025-0033).'
     - year: 2023
       items:
         - Doctoral Research Scholarship, Tecnológico de Monterrey
@@ -92,4 +90,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Scientific writing, exploring AI ethics, and digital art.
+    - "<u>Hobbies:</u> Scientific writing, exploring AI ethics, and digital art."
