@@ -1,48 +1,83 @@
 ---
 layout: page
-title: contact
 permalink: /contact/
+title: Contact
+description: Feel free to contact me if you have any question.
 nav: true
 nav_order: 5
 ---
 
-<h2>Contact Me</h2>
-<p>If you'd like to get in touch, please fill out the form below.</p>
+<div class="contact-form-container">
 
-<form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
-  <label for="name">Name</label><br>
-  <input type="text" id="name" name="name" required><br><br>
+<form action="https://formspree.io/f/mqawangr" method="POST" class="contact-form">
+  
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required class="form-control">
+  </div>
 
-  <label for="email">Email</label><br>
-  <input type="email" id="email" name="_replyto" required><br><br>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="_replyto" required class="form-control">
+  </div>
 
-  <label for="message">Message</label><br>
-  <textarea id="message" name="message" rows="5" required></textarea><br><br>
+  <div class="form-group">
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="_subject" placeholder="Optional" class="form-control">
+  </div>
 
-  <button type="submit">Send Message</button>
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="6" required class="form-control"></textarea>
+  </div>
+
+  <!-- Optional: redirect to thank-you page after submission -->
+  <input type="hidden" name="_next" value="/thank-you/">
+
+  <button type="submit" class="btn btn-primary">Send Message</button>
 </form>
 
+</div>
+
 <style>
-.contact-form {
-  max-width: 500px;
+.contact-form-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
-.contact-form input, .contact-form textarea {
+
+.contact-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.contact-form input,
+.contact-form textarea {
   width: 100%;
-  padding: 8px;
-  margin-top: 4px;
+  padding: 0.6rem 0.8rem;
   border-radius: 6px;
   border: 1px solid #ccc;
   font-size: 1rem;
 }
-.contact-form button {
-  background-color: #007ACC;
-  color: white;
-  padding: 10px 18px;
+
+.contact-form .btn-primary {
+  background-color: #007bff;
   border: none;
+  padding: 0.6rem 1.2rem;
   border-radius: 6px;
+  font-size: 1rem;
   cursor: pointer;
 }
-.contact-form button:hover {
-  background-color: #005fa3;
+
+.contact-form .btn-primary:hover {
+  background-color: #0056b3;
 }
 </style>
