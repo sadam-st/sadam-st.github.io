@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One Paper accepted in Applied Sciences.
+One Paper accepted in Applied Sciences. :sparkles:
