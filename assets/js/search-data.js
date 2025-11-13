@@ -23,19 +23,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-contact",
-          title: "Contact",
-          description: "Feel free to contact me if you have any question.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/contact/";
-          },
         },{id: "nav-teaching",
           title: "Teaching",
           description: "The courses I taught.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
+          },
+        },{id: "nav-contact",
+          title: "Contact",
+          description: "Feel free to contact me if you have any question.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/contact/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
