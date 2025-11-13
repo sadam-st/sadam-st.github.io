@@ -2,6 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
+# force rebuild
+
+
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Sadam
 #middle_name: R.
