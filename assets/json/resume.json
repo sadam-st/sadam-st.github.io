@@ -1,29 +1,29 @@
 {
   "basics": {
-    "name": "Dr. Sadam Hussain",
+    "name": "Sadam Hussain",
     "label": "Computer Scientist",
     "image": "",
-    "email": "sadam@saus.edu.pk",
+    "email": "sadamteewino@gmail.com",
     "phone": "",
     "url": "",
-    "summary": "PhD in Computer Science, specializing in responsible and explainable AI systems for multimodal breast cancer diagnosis and risk prediction.",
+    "summary": "PhD in Computer Science, specializing in multimodal AI for breast cancer diagnosis and risk prediction.",
     "location": {
       "address": "",
       "postalCode": "",
       "city": "",
-      "countryCode": "PK",
+      "countryCode": "",
       "region": ""
     },
     "profiles": []
   },
   "work": [
     {
-      "name": "Tecnológico de Monterrey, Monterrey, Mexico",
+      "name": "Tecnológico de Monterrey, Mexico",
       "position": "Researcher (PhD Candidate)",
       "url": "",
       "startDate": "2020-01-01",
-      "endDate": "2024-12-31",
-      "summary": "Developed a multimodal foundation model for breast cancer risk prediction and integrated explainable AI components.",
+      "endDate": "Present",
+      "summary": "Deep Learning and Natural Language Processing for Computer-Aided Diagnosis.",
       "highlights": [
         "Collaborated with clinicians and radiologists for data annotation and model validation."
       ]
@@ -55,7 +55,7 @@
       "area": "Computer Science",
       "studyType": "PhD",
       "startDate": "2021-01-01",
-      "endDate": "2025-12-31",
+      "endDate": "Present",
       "score": "",
       "courses": [
         "Development of Responsible and Explainable AI Systems for Multimodal Breast Cancer Diagnosis and Risk Prediction",
@@ -66,20 +66,20 @@
       "institution": "Shah Abdul Latif University",
       "area": "Computer Science",
       "studyType": "MPhil",
-      "startDate": "2016-01-01",
-      "endDate": "2018-12-31",
+      "startDate": "2018",
+      "endDate": "2020",
       "score": "",
       "courses": [
-        "Thesis on deep learning for medical image analysis",
-        "Published research in machine learning-based fMRI analysis"
+        "Neuroinformatics - Brain Connectivity Analysis"
+        
       ]
     },
     {
       "institution": "University of Sindh, Jamshoro",
       "area": "Computer Science",
       "studyType": "MSc",
-      "startDate": "2012-01-01",
-      "endDate": "2014-12-31",
+      "startDate": "2012",
+      "endDate": "2014",
       "score": "",
       "courses": [
         "Graduated with distinction",
@@ -92,17 +92,17 @@
       "name": "TECRR Dataset",
       "summary": "A benchmark dataset of radiological reports for BI-RADS classification with ML, DL, and LLM baselines.",
       "highlights": [],
-      "startDate": "2023-01-01",
-      "endDate": "Present",
-      "url": "https://github.com/sadam-hussain-tec/TECRR"
+      "startDate": "2024",
+      "endDate": "",
+      "url": ""
     },
     {
       "name": "Multimodal-Risk-AI",
       "summary": "A multimodal AI framework for breast cancer risk prediction using mammography and radiology reports.",
       "highlights": [],
-      "startDate": "2024-01-01",
-      "endDate": "Present",
-      "url": "https://github.com/sadam-hussain-tec/Multimodal-Risk-AI"
+      "startDate": "2024",
+      "endDate": "2025",
+      "url": ""
     }
   ],
   "awards": [
@@ -114,14 +114,14 @@
     },
     {
       "title": "Doctoral Research Scholarship",
-      "date": "2023-01-01",
+      "date": "2021-2025",
       "awarder": "Tecnológico de Monterrey",
       "summary": ""
     },
     {
-      "title": "Graduate Merit Award",
-      "date": "2018-01-01",
-      "awarder": "COMSATS University Islamabad",
+      "title": "Silver Medalist",
+      "date": "2014",
+      "awarder": "University of Sindh, Jamshoro",
       "summary": ""
     }
   ],
@@ -132,8 +132,8 @@
       "fluency": "Fluent"
     },
     {
-      "language": "Urdu",
-      "fluency": "Native speaker"
+      "language": "",
+      "fluency": ""
     }
   ],
   "interests": [
