@@ -408,12 +408,7 @@ ninja.data = [{
             },},{id: "news-one-paper-accepted-in-applied-sciences-sparkles",
           title: 'One Paper accepted in Applied Sciences. :sparkles:',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-three-papers-accepted-at-spie-medical-imaging-conference-2026-vancouver-canada-sparkles-smile",
+          section: "News",},{id: "news-three-papers-accepted-at-spie-medical-imaging-conference-2026-vancouver-canada-sparkles-smile",
           title: 'Three papers accepted at SPIE Medical Imaging Conference 2026 Vancouver, Canada.! :sparkles: :smile:...',
           description: "",
           section: "News",},{id: "projects-project-1",
