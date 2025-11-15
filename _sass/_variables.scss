@@ -20,8 +20,11 @@ $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
 $purple-color: #b509ac !default;
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
-$pink-color: #f92080 !default;
-$pink-color-light: #ffdddd !default;
+$pink-color: #00ab37 !default;       // site-wide accent color
+$pink-color-light: #ddffdd !default; // lighter green for backgrounds, badges, etc.
+
+// $pink-color: #f92080 !default;
+// $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
 
 $grey-color: #828282 !default;
