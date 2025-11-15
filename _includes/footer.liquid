@@ -1,17 +1,20 @@
+{% capture footer_contents %}
+  &copy; Copyright {{ site.time | date: '%Y' }}
+  {{ site.first_name }}
+  {{ site.middle_name }}
+  {{ site.last_name }}. {{ site.footer_text }}
+  {% if site.impressum_path %}
+    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+  {% endif %}
+  {% if site.last_updated %}
+    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+  {% endif %}
+{% endcapture %}
+
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
       {{ footer_contents }}
-
-      <!-- Visitor map inside footer -->
-      <div class="visitor-map" style="margin-top: 1.5rem; text-align:center;">
-        <a href="https://www.clustrmaps.com" title="View ClustrMaps">
-          <img src="https://clustrmaps.com/map_v2.png?url=https://yourwebsite.com" 
-               alt="Visitor Map" 
-               style="max-width:100%; height:auto; border:0;" />
-        </a>
-      </div>
-
     </div>
   </footer>
 {% else %}
@@ -19,19 +22,8 @@
     {% if site.newsletter.enabled %}
       {% include newsletter.liquid %}
     {% endif %}
-
     <div class="container">
       {{ footer_contents }}
-
-      <!-- Visitor map inside footer -->
-      <div class="visitor-map" style="margin-top: 1.5rem; text-align:center;">
-        <a href="https://www.clustrmaps.com" title="View ClustrMaps">
-          <img src="https://clustrmaps.com/map_v2.png?url=https://sadam-st.github.io" 
-               alt="Visitor Map" 
-               style="max-width:100%; height:auto; border:0;" />
-        </a>
-      </div>
-
     </div>
   </footer>
 {% endif %}
